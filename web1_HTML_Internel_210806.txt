@@ -1,0 +1,80 @@
+21.08.06
+WEB1-HTML & Internet 
+5.HTML 코딩과 실습환경 준비
+ - Editor : 코드 편집 프로그램 ->  메모장 , 아톰
+ - Web 브라우저 
+ - 브라우저로 열기 : C:\web\1.html
+6.기본문법 태그
+
+7.혁명적인 변화 
+-Tag
+<h1>Heading</h1>
+<h2>Heading</h2>
+8.통계에 기반한 학습 
+ - 전세계 웹페이지들이 어떤 tag를 많이 사용하는지 분석
+9.줄바꿈 : br vs p 
+ - new line tag
+ - paragraph tag : <p></p>
+ - CSS 문법소개     : <p style="margin-top:40px">
+   --> 좀 더 정교한 조정 가능 
+10.html이 중요한 이유 
+ - 모든 운영체제에서 동작
+ - 공개 , 소스를 볼 수 있다. 
+ - 접근성 (accessibility) 이 좋다. 
+11. 최후의 문법 속성& img 
+ - 이미지(사진) 추가 방법 :https://unsplash.com/ 
+  <img src="경로/파일이름.jpg" width = "100%">
+   --> tag 에 속성(Attribute)을 추가하여 사진 표현
+12.부모자식과 목록
+ <parent>
+      <child></child>
+ </parent>
+ -목차(목차 ,list) : <li>
+ - <ul> : unorded list 
+  ==>부모 tag <ul> 은 반드시 자식tag <li>을 갖고 있다.
+ - <ol> : <ul> 대체 , 자동 넘버링 : ordered list
+
+13. 문서의구조와 슈퍼스타들 
+ -<title></title>
+ - 한글깨짐 현상 방지 :  utf-8 적용
+  <meta charset="utf-8">
+ -<!doctype html>
+ - <html></html>
+ -<head></head>
+ -<body></body> : 본문 
+
+14. HTLM tag 의 제왕 
+ - anchor : <a> --> 링크기능 제공 
+  <a href="링크주소" target="_blank"> : 탭추가하여 링크
+ 
+15.웹사이트 완성
+16. 원시웹 
+    : 웹의 역사 
+ - 이 강의의  목표는 무엇인가?
+   : 웹을 통해 코딩 학습
+   : 작성 한 웹을 외부에서도 누구나 접속할 수 있도록 함.
+ - Internet vs WEB  
+   : world wide web : 최소의 web 프로그램 
+   : 최초의 서버 제작 하고 주소 부여
+   http://info.cern.ch 
+17.인터넷을 여는 열쇠 : 서버와 클라이언트 
+
+    web Brower가 설치된 컴: 정보 요청 request : client 
+    web Server 가 설친된 컴:               response : server
+  	 web            	 web
+             Browser        	 Server 
+	 ------           	------
+  	 -     -    ---->    	-     -  index.html(파일)이 컴2에 저장
+ 	 ------    <----     	------
+              컴1	      	 컴2 :   http://info.cern.ch 라는 주소
+            (web)client           (web)server
+	(game)client         (game)server
+
+   - Web Server :  컴에 설치되는 프로그램
+ : Web Server 를 설치한다 --> 다른 PC의 Web Browser(Client)에서
+   접속해서 자료를 요청할 수 있다. 
+
+18.웹호스팅(web hosting):github page
+ : Web Server 대행 업체 이용 
+ : github 
+  - 무료로 homepage를 운영할 수 있는 web Server 제공
