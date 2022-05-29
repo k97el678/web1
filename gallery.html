@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>gallery</title>
+  </head>
+  <style>
+    div.gallery{
+      margin: 5px 2px;
+      border:1px solid #ccc;
+      width:180px;
+    }
+    div.gallery img{
+      width:100%; height:auto;
+    }
+    div.gallery:hover{
+      border:1px solid #777; color: yellowgreen;
+    }
+    div.desc{
+      overflow:hidden; /*글자초과시 숨김*/ text-overflow:ellipsis;/*글자초과 생략기호 사용*/
+      padding:15px; text-align:center;
+    }
+
+  </style>
+  <body>
+    <div class="gallery">
+      <a href="image/adpat.jpg" target="_blank">
+        <img src="image/adpat.jpg" alt="배경1" width="600px" height="400px">
+      </a>
+      <div class="desc">image1</div>
+    </div>
+    <div class="gallery">
+      <a href="image/balvenie.jpg" target="_blank">
+        <img src="image/balvenie.jpg" alt="배경2" width="600px" height="400px">
+      </a>
+      <div class="desc">image2</div>
+    </div>
+    <div class="gallery">
+      <a href="img/beer.jpg" target="_blank">
+        <img src="img/beer.jpg" alt="사진" width="600px" height="400px"></a>
+    </div>
+    <div class="gallery">
+      <a href="img/bomb.jpg" target="_blank">
+        <img src="img/bomb.jpg" alt="사진" width="600px" height="400px"></a>
+    </div>
+    <div class="gallery">
+      <a href="img/coffee.jpg" target="_blank">
+        <img src="img/coffee.jpg" alt="사진" width="600px" height="400px"></a>
+    </div>
+    <div class="gallery">
+      <a href="img/detective.jpg" target="_blank">
+        <img src="img/detective.jpg" alt="사진" width="600px" height="400px"></a>
+    </div>
+  </body>
+</html>
