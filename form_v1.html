@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form</title>
+  </head>
+  <body>
+    <form class="" action="#" name="form1" method="post">
+      id : <input type="text" name="userid" maxlenth="10" autofocus placeholder="영문숫자 혼합10자"><br />
+      password :
+      <input type="password" maxlength="10" placeholder="영문 숫자 혼합10자">
+      <!--
+      <fieldset>
+        <legend>privacy</legend>
+        <label for="loginid">Login Id</label>
+        <input type="text" name="loginid" id="loginid">
+        Email : <input type="email"><br />
+        Date of birth : <input type="text">
+      </fieldset>
+      <textarea name="text1" rows="8" cols="50">
+      </textarea><br />
+      <select  name="sel_list" size="6" style="width:200px;" mutiple>
+        <optgroup label="Programing">
+          <option value="html5">html5</option>
+          <option value="css3">css3</option>
+          <option value="javascript">javascript</option>
+        </optgroup>
+        <option value="html5">html5</option>
+        <option value="css3">css3</option>
+        <option value="javascript">javascript</option>
+      </select>
+      <input type="radio" name="chk" value="html">html
+      <input type="radio" name="chk" value="css">css
+      <input type="radio" name="chk" value="java">java
+      <br />
+      <input type="checkbox" name="chk1" value="html">html
+      <input type="checkbox" name="chk1" value="css">css
+      <input type="checkbox" name="chk1" value="java">java
+      <br />
+      <input type="file">자료 제출
+      <br />
+      select your favorite color
+      <input type="color" name="favcolor">
+
+      <br />
+      <br />
+      <br />
+      <br />
+      -->
+      <br />
+      <br />
+      <br />
+      <input type="text" name="stu" list="depList"><br>
+      <datalist id="deList">
+        <option value="소프트웨어공학과"></option>
+        <option value="컴퓨터과학과"></option>
+        <option value="스마트IT과"></option>
+        <option value="콘텐츠미디어"></option>
+      </datalist>
+    </form>
+
+    <br />
+    <br />
+    <br />
+
+      진단버튼
+      <input type="number" name="quantity" min=1 max=10>
+      <br />
+    <form action="#"
+      oninput="result.value=parsInt(a.value)">
+      배열(슬라이드 바)
+      <input type="range" id="a" value="0" name="points" min=0 max=10>
+      <output name="result" for="a"></output>
+    </form>
+  </body>
+</html>
